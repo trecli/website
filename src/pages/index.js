@@ -8,8 +8,18 @@ import styles from './styles.module.css';
 
 const features = [
   {
+    title: <>Easy to learn</>,
+    imageUrl: 'img/undraw_researching_22gp.svg',
+    description: (
+      <>
+        Our goal was to make tool that is powerful but easy to learn as well. We
+        promise you won't waste your time with us.
+      </>
+    ),
+  },
+  {
     title: <>Focus on coding</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_developer_activity_bv83.svg',
     description: (
       <>
         Trecli was designed to speed up development process. Trecli lets you
@@ -18,18 +28,8 @@ const features = [
     ),
   },
   {
-    title: <>Easy to learn</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Our goal was to make tool that is powerful but easy to learn also. We
-        promise you won't waste your time with us.
-      </>
-    ),
-  },
-  {
     title: <>Modern approach</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_web_development_w2vv.svg',
     description: (
       <>We like React with Typescript and hooks. We hope you too :)</>
     ),
@@ -66,7 +66,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={classnames(
-                'button button--outline button--secondary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted
               )}
               to={useBaseUrl('docs/installation')}
