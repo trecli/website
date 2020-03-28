@@ -11,8 +11,7 @@ module.exports = {
       title: 'Trecli',
       logo: {
         alt: 'Trecli Logo',
-        src:
-          'https://user-images.githubusercontent.com/3486023/77478649-9d93ba00-6e1e-11ea-9a5d-5e5e722344c1.png',
+        src: 'static/img/trecli_logo_3.svg',
       },
       links: [
         {

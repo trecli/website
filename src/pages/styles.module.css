@@ -34,3 +34,9 @@
   height: 200px;
   width: 200px;
 }
+
+.landingPageLogo {
+  max-height: 90px;
+  max-width: 90px;
+  margin-bottom: 40px;
+}

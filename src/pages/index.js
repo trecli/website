@@ -59,14 +59,19 @@ function Home() {
       title={`${siteConfig.title} - Typescript React CLI`}
       description="Description will go into a meta tag in <head />"
     >
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      <header className={classnames('hero hero--dark', styles.heroBanner)}>
         <div className="container">
+          <img
+            className={styles.landingPageLogo}
+            src={useBaseUrl('img/trecli_logo_3.svg')}
+            alt={'Trecli Logo'}
+          />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
-                'button button--secondary button--lg',
+                'button button--primary button--lg',
                 styles.getStarted
               )}
               to={useBaseUrl('docs/installation')}
