@@ -1,9 +1,7 @@
 module.exports = {
   someSidebar: {
     About: ['what-is-trecli'],
-    Usage: ['installation'],
+    Usage: ['installation', 'interactive-mode'],
     'Configuring Trecli': ['options', 'configuration-file'],
-    // Docusaurus: ['doc1', 'doc2', 'doc3'],
-    // Features: ['mdx'],
   },
 };
