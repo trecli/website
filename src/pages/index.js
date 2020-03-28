@@ -8,33 +8,30 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Focus on coding</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Trecli was designed to speed up development process. Trecli lets you
+        focus on real coding. We&apos;ll make necessary files for you.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Easy to learn</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Our goal was to make tool that is powerful but easy to learn also. We
+        promise you won't waste your time with us.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Modern approach</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <>We like React with Typescript and hooks. We hope you too :)</>
     ),
   },
 ];
@@ -59,7 +56,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - Typescript React CLI`}
       description="Description will go into a meta tag in <head />"
     >
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
@@ -72,7 +69,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={useBaseUrl('docs/doc1')}
+              to={useBaseUrl('docs/installation')}
             >
               Get Started
             </Link>
