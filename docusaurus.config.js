@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Typescript React CLI',
   url: 'https://your-docusaurus-test-site.com', // TODO
   baseUrl: '/',
-  favicon: 'img/favicon.ico', // TODO
+  favicon: 'img/favicon.ico',
   organizationName: 'trecli', // Usually your GitHub org/user name.
   projectName: 'trecli', // Usually your repo name.
   themeConfig: {
