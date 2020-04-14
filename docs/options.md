@@ -27,7 +27,7 @@ Valid options:
 | ------- | ---------------------------------------------- | --------- | --------------------------------------------------- |
 | `false` | `--styles=<"css"∣"css-modules"∣"material-ui">` | `-s`      | `styles: <"css"∣"css-modules"∣"material-ui"∣false>` |
 
-Note: if you have `styles` value specified in your configuration file you can still generate component without style using `--no-styles` or `--no-s` option.
+Note: if you have `styles` value specified in your configuration file you can still generate component without style by adding `--no-styles` or `--no-s` option to command.
 
 [css]: https://create-react-app.dev/docs/adding-a-stylesheet/
 [css-modules]: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet
