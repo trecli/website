@@ -11,7 +11,7 @@ module.exports = {
       title: 'Trecli',
       logo: {
         alt: 'Trecli Logo',
-        src: 'static/img/trecli_logo_3.svg',
+        src: 'img/trecli_logo_3.svg',
       },
       links: [
         {
