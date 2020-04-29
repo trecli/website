@@ -19,9 +19,9 @@
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
-    "husky": "^4.2.4",
-    "lint-staged": "^10.1.3",
-    "prettier": "^2.0.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.0",
+    "prettier": "^2.0.5",
     "terminalizer": "^0.7.2"
   },
   "husky": {
