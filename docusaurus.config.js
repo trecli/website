@@ -6,7 +6,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'trecli', // Usually your GitHub org/user name.
   projectName: 'trecli', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: 'Trecli',
@@ -78,7 +77,7 @@ module.exports = {
       // ],
       copyright: `Copyright © ${new Date().getFullYear()} Trecli.`,
     },
-    googleAnalytics: {
+    gtag: {
       trackingID: 'UA-164883852-1',
     },
   },
