@@ -19,9 +19,7 @@ trecli Foo
 
 ⬇ **creates** ⬇
 
-_Foo.tsx_
-
-```typescript
+```typescript title="Foo.tsx"
 import React from 'react';
 
 import { FooProps } from './Foo.interface';
@@ -31,9 +29,7 @@ export function Foo(props: FooProps) {
 }
 ```
 
-_Foo.interface.ts_
-
-```typescript
+```typescript title="Foo.interface.ts"
 export interface FooProps {
 
 }
@@ -49,15 +45,11 @@ trecli Bar --idx -s=material-ui
 
 ⬇ **creates** ⬇
 
-_index.ts_
-
-```typescript
+```typescript title="index.ts"
 export { default as Bar } from './Bar';
 ```
 
-_Bar.tsx_
-
-```typescript
+```typescript title="Bar.tsx"
 import React from 'react';
 
 import { BarProps } from './Bar.interface';
@@ -70,17 +62,13 @@ export default function Bar(props: BarProps) {
 }
 ```
 
-_Bar.interface.ts_
-
-```typescript
+```typescript title="Bar.interface.ts"
 export interface BarProps {
 
 }
 ```
 
-_Bar.styles.ts_
-
-```typescript
+```typescript title="Bar.styles.ts"
 import { makeStyles, Theme } from '@material-ui/core';
 
 export const useStyles = makeStyles((theme: Theme) => ({
