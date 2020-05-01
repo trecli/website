@@ -19,4 +19,6 @@ or simply:
 trecli -i
 ```
 
-Note: In interactive mode properties from [configuration file](configuration-file.md) will be used as question defaults.
+:::note
+In interactive mode properties from [configuration file](configuration-file.md) will be used as question defaults.
+:::
