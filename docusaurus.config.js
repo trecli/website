@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Trecli',
   tagline: 'Typescript React CLI',
-  url: 'https://your-docusaurus-test-site.com', // TODO
+  url: 'https://trecli.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'trecli', // Usually your GitHub org/user name.
