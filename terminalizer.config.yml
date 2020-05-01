@@ -20,7 +20,7 @@ cols: 80
 # Explicitly set the number of rows
 # or use `auto` to take the current
 # number of rows of your shell
-rows: 24
+rows: 18
 
 # Amount of times to repeat GIF
 # If value is -1, play once
@@ -50,9 +50,10 @@ frameBox:
   title: null
   style:
     border: 0px black solid
-    # boxShadow: none
-    # margin: 0px
-    background: "#292d3e"
+    boxShadow: none
+    margin: 0px
+    borderRadius: 0
+    background: '#292d3e'
 
 # Add a watermark image to the rendered gif
 # You need to specify an absolute path for
@@ -74,7 +75,7 @@ cursorStyle: block
 # Font family
 # You can use any font that is installed on your machine
 # in CSS-like syntax
-fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+fontFamily: 'Monaco, Lucida Console, Ubuntu Mono, Monospace'
 
 # The size of the font
 fontSize: 16
@@ -87,22 +88,22 @@ letterSpacing: 0
 
 # Theme
 theme:
-  background: "transparent"
-  foreground: "#bfc7d5"
-  cursor: "#c7c7c7"
-  black: "#232628"
-  red: "#fc4384"
-  green: "#b3e33b"
-  yellow: "#ffa727"
-  blue: "#75dff2"
-  magenta: "#ae89fe"
-  cyan: "#89ddff"
-  white: "#d5d5d0"
-  brightBlack: "#626566"
-  brightRed: "#ff7fac"
-  brightGreen: "#c3e88d"
-  brightYellow: "#ebdf86"
-  brightBlue: "#82aaff"
-  brightMagenta: "#ae89fe"
-  brightCyan: "#b1c6ca"
-  brightWhite: "#f9f9f4"
+  background: 'transparent'
+  foreground: '#bfc7d5'
+  cursor: '#c7c7c7'
+  black: '#232628'
+  red: '#fc4384'
+  green: '#b3e33b'
+  yellow: '#ffa727'
+  blue: '#75dff2'
+  magenta: '#ae89fe'
+  cyan: '#89ddff'
+  white: '#d5d5d0'
+  brightBlack: '#626566'
+  brightRed: '#ff7fac'
+  brightGreen: '#c3e88d'
+  brightYellow: '#ebdf86'
+  brightBlue: '#82aaff'
+  brightMagenta: '#ae89fe'
+  brightCyan: '#b1c6ca'
+  brightWhite: '#f9f9f4'
