@@ -1,7 +1,9 @@
 ---
-id: cli
-title: CLI
+id: cli-global-options
+title: CLI global options
 ---
+
+Global options can be used in any trecli command
 
 ## `--dry-run`, `-d`
 
