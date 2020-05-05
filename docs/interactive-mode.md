@@ -20,5 +20,5 @@ trecli -i
 ```
 
 :::note
-In interactive mode properties from [configuration file](configuration-file.md) will be used as question defaults.
+In interactive mode properties from [configuration file](configuration-file.md) are used as question defaults.
 :::

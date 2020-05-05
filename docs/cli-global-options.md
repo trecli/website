@@ -3,7 +3,7 @@ id: cli-global-options
 title: CLI global options
 ---
 
-Global options can be used in any trecli command
+Global options can be used with any trecli command.
 
 ## `--dry-run`, `-d`
 
