@@ -3,7 +3,7 @@ module.exports = {
     About: ['what-is-trecli', 'what-trecli-means'],
     Usage: [
       'installation',
-      'options',
+      'component-generator',
       'configuration-file',
       'interactive-mode',
       'cli-global-options',

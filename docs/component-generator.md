@@ -1,11 +1,35 @@
 ---
-id: options
-title: Options
+id: component-generator
+title: Component generator
 ---
+
+Main Trecli feature is component generator.
+
+## Generator command
+
+To generate component run default command:
+
+```bash
+trecli <ComponentName>
+```
+
+or use full command
+
+```bash
+trecli component <ComponentName>
+```
+
+or use alias
+
+```bash
+trecli c <ComponentName>
+```
+
+## Generator options
 
 Trecli ships with a handful of customizable options, usable in both the CLI and [configuration file](configuration-file.md).
 
-## Index File Generation
+### Index File Generation
 
 Specify if component contain `index.ts` file.
 
@@ -15,7 +39,7 @@ Specify if component contain `index.ts` file.
 
 ---
 
-## Styles Solutions
+### Styles Solutions
 
 Valid options:
 
@@ -37,7 +61,7 @@ If you have `styles` value specified in your configuration file you can still ge
 
 ---
 
-## Lazy Loaded
+### Lazy Loaded
 
 Specify if component will be exporting named of default export. Default export is necessary if you are going to import component with `React.lazy`.
 
