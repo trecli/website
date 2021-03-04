@@ -30,9 +30,11 @@ export function Foo(props: FooProps) {
 ```
 
 ```typescript title="Foo.interface.ts"
-export interface FooProps {
+interface FooOwnProps {
 
 }
+
+export type FooProps = FooOwnProps;
 ```
 
 ---
@@ -63,9 +65,11 @@ export default function Bar(props: BarProps) {
 ```
 
 ```typescript title="Bar.interface.ts"
-export interface BarProps {
+interface BarOwnProps {
 
 }
+
+export type BarProps = BarOwnProps;
 ```
 
 ```typescript title="Bar.styles.ts"
