@@ -13,7 +13,7 @@ module.exports = {
         alt: 'Trecli Logo',
         src: 'img/trecli_logo_3.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/installation',
           activeBasePath: 'docs',
