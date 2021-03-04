@@ -4,6 +4,12 @@ This repository contains [Trecli website](https://trecli.netlify.app/) source fi
 
 ## Website development
 
+Tested on node v13. This version of node is fixed in [.nvmrc](.nvmrc) file. To use it run command:
+
+```
+$ nvm use
+```
+
 ### Installation
 
 ```
